@@ -31,7 +31,7 @@ dependencies {
     implementation("org.liquibase:liquibase-core")
 
 	// Environment variables
-	implementation("io.github.cdimascio:dotenv-java")
+	implementation("io.github.cdimascio:dotenv-java:3.2.0")
 
     // Tests
     testImplementation("org.springframework.boot:spring-boot-starter-test")
